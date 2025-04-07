@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Interface</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>AI Chat Interface<br><span class="security-note">(Security Note: Avoid sharing sensitive personal information in this chat.)</span></h1>
+            <div class="connection-status">
+                <span id="statusIcon" class="status-icon"></span>
+                <span id="statusText">Connecting...</span>
+            </div>
+        </div>
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input">
+            <textarea id="userInput" placeholder="Type your message here...Avoid sharing sensitive personal information in this chat." rows="3"></textarea>
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    <script src="static/config.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
