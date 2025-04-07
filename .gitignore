@@ -25,3 +25,5 @@ cloud/txt/env/**
 config.js
 cloud/txt/src/static/config.js
 cloud/tts/src/static/config.js
+__pycache__/**
+__pycache__
